@@ -7,49 +7,28 @@ public class Main {
 		// hepsiburada örneði
 		
 		
-		Product product1 = new Product(1,"Lenevo V14", 15000, "16GB Ram"); // Örnek Oluþturma, Referans oluþturma, intance oluþturma.
+		Product product1 = new Product(1,"Lenevo V14", 15000, "16GB Ram",10); // Örnek Oluþturma, Referans oluþturma, intance oluþturma.
 		
 		
 		Product product2 = new Product(); 
-		product2.id = 2;
-		product2.name = "Lenevo V15";
-		product2.unitPrice = 16000;
-		product2.detail = "32 GB Ram";
+		product2.setId(2);
+		product2.setName("Lenevo V15");
+		product2.setDetail("16 Gb Ram");
+		product2.setDiscount(10);
+		product2.setUnitPrice(16000);
 		
-		Product product3 = new Product(); 
-		product3.id = 3;
-		product3.name = "Hp 5";
-		product3.unitPrice = 10000;
-		product3.detail = "8 GB Ram";
+		System.out.println(product2.getUnitPriceAfterDiscount());
 		
-		
-		
-		Product[] products = {product1,product2,product3};
-		
-		for (Product product : products) {
-			
-			System.out.println(product.name);
-		}
-		
-		System.out.println(products.length);
-		
-		
-		Category category1 = new Category(); 
-		category1.id = 1;
-		category1.name = "Bilgisayar";
+		Category category1 = new Category();
+		category1.setId(1);
+		category1.setName("Ýçecek");
 		
 		Category category2 = new Category();
-		category2.id = 2;
-		category2.name = "Ev/Bahçe";
+		category2.setId(1);
+		category2.setName("Yiyecek");
 		
-		
-		ProductManager productManager = new ProductManager();
-		productManager.addToCart(product1);
-		
-		productManager.addToCart(product2);
-		
-		productManager.addToCart(product3);
-			
+		System.out.println(category1.getName());
+		System.out.println(category2.getName());	
 	}
 
 }
