@@ -1,2 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="inheritance.Customer"/>
+    <fullyQualifiedTypeName name="inheritance.Employee"/>
+    <fullyQualifiedTypeName name="inheritance.EmployeeManager"/>
+    <fullyQualifiedTypeName name="inheritance.CustomerManager"/>
+    <fullyQualifiedTypeName name="inheritanceDemo.KrediUI"/>
+    <fullyQualifiedTypeName name="inheritanceDemo.OgretmenKrediManager"/>
+    <fullyQualifiedTypeName name="inheritanceDemo.BaseKrediManager"/>
+    <fullyQualifiedTypeName name="inheritanceDemo.AskerKrediManager"/>
+    <fullyQualifiedTypeName name="polymorphismDemo.EmailLogger"/>
+    <fullyQualifiedTypeName name="polymorphismDemo.BaseLogger"/>
+    <fullyQualifiedTypeName name="polymorphismDemo.CustomerManager"/>
+    <fullyQualifiedTypeName name="polymorphismDemo.DatabaseLogger"/>
+    <fullyQualifiedTypeName name="polymorphismDemo.FileLogger"/>
+    <fullyQualifiedTypeName name="polymorphismDemo.ConsoleLogger"/>
+    <fullyQualifiedTypeName name="overriding.OgretmenKrediManager"/>
+    <fullyQualifiedTypeName name="overriding.TarimKrediManager"/>
+    <fullyQualifiedTypeName name="overriding.BaseKrediManager"/>
+    <fullyQualifiedTypeName name="overriding.OgrenciKrediManager"/>
+</qualifiedTypeNameHistroy>
