@@ -11,4 +11,11 @@
     <fullyQualifiedTypeName name="inheritance2.DatabaseLogger"/>
     <fullyQualifiedTypeName name="inheritance2.FileLogger"/>
     <fullyQualifiedTypeName name="inheritance2.EmailLogger"/>
+    <fullyQualifiedTypeName name="interfaces.DatabaseLogger"/>
+    <fullyQualifiedTypeName name="interfaces.SmsLogger"/>
+    <fullyQualifiedTypeName name="interfaces.EmailLogger"/>
+    <fullyQualifiedTypeName name="interfaces.CustomerManager"/>
+    <fullyQualifiedTypeName name="interfaces.FileLogger"/>
+    <fullyQualifiedTypeName name="interfaces.Utils"/>
+    <fullyQualifiedTypeName name="interfaces.Customer"/>
 </qualifiedTypeNameHistroy>
