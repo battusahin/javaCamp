@@ -18,4 +18,26 @@
     <fullyQualifiedTypeName name="overriding.TarimKrediManager"/>
     <fullyQualifiedTypeName name="overriding.BaseKrediManager"/>
     <fullyQualifiedTypeName name="overriding.OgrenciKrediManager"/>
+    <fullyQualifiedTypeName name="abstractClasses.WomenGameCalculator"/>
+    <fullyQualifiedTypeName name="abstractDemo.CustomerManager"/>
+    <fullyQualifiedTypeName name="abstractDemo.SqlServerDatabaseManager"/>
+    <fullyQualifiedTypeName name="abstractDemo.MySqlDatabaseManager"/>
+    <fullyQualifiedTypeName name="abstractDemo.BaseDatabaseManager"/>
+    <fullyQualifiedTypeName name="abstractDemo.OracleDatabaseManager"/>
+    <fullyQualifiedTypeName name="interfaces.IRepository"/>
+    <fullyQualifiedTypeName name="interfaces.ICustomerDal"/>
+    <fullyQualifiedTypeName name="interfaces.CustomerManager"/>
+    <fullyQualifiedTypeName name="interfaces.OracleCustomerDal"/>
+    <fullyQualifiedTypeName name="abstractClasses.GameCalculator"/>
+    <fullyQualifiedTypeName name="abstractClasses.ManGameCalculator"/>
+    <fullyQualifiedTypeName name="interfacesDemo.IEateable"/>
+    <fullyQualifiedTypeName name="interfacesDemo.IPayable"/>
+    <fullyQualifiedTypeName name="interfacesDemo.Worker"/>
+    <fullyQualifiedTypeName name="interfacesDemo.IWorkable"/>
+    <fullyQualifiedTypeName name="staticDemo.ProductManager"/>
+    <fullyQualifiedTypeName name="staticDemo.Product"/>
+    <fullyQualifiedTypeName name="staticDemo.ProductValidator"/>
+    <fullyQualifiedTypeName name="staticDemo.DatabaseHelper"/>
+    <fullyQualifiedTypeName name="staticDemo.DatabaseHelper.Crud"/>
+    <fullyQualifiedTypeName name="staticDemo.DatabaseHelper.Connection"/>
 </qualifiedTypeNameHistroy>
