@@ -6,4 +6,13 @@
     <fullyQualifiedTypeName name="UserManager"/>
     <fullyQualifiedTypeName name="StudentManager"/>
     <fullyQualifiedTypeName name="InstructorManager"/>
+    <fullyQualifiedTypeName name="BaseCustomerManager"/>
+    <fullyQualifiedTypeName name="NeroCustomerManager"/>
+    <fullyQualifiedTypeName name="Entity"/>
+    <fullyQualifiedTypeName name="Customer"/>
+    <fullyQualifiedTypeName name="StarbucksCustomerManager"/>
+    <fullyQualifiedTypeName name="CustomerCheckService"/>
+    <fullyQualifiedTypeName name="CustomerService"/>
+    <fullyQualifiedTypeName name="Abstract.CustomerCheckService"/>
+    <fullyQualifiedTypeName name="tr.gov.nvi.tckimlik.WS.KPSPublicSoapProxy"/>
 </qualifiedTypeNameHistroy>
