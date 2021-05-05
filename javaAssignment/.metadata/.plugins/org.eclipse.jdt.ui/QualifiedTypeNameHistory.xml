@@ -15,4 +15,20 @@
     <fullyQualifiedTypeName name="CustomerService"/>
     <fullyQualifiedTypeName name="Abstract.CustomerCheckService"/>
     <fullyQualifiedTypeName name="tr.gov.nvi.tckimlik.WS.KPSPublicSoapProxy"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="entities.Entity"/>
+    <fullyQualifiedTypeName name="javax.xml.stream.events.EndDocument"/>
+    <fullyQualifiedTypeName name="Abstract.Entity"/>
+    <fullyQualifiedTypeName name="Abstract.MemberCheckService"/>
+    <fullyQualifiedTypeName name="Abstract.MemberService"/>
+    <fullyQualifiedTypeName name="Abstract.GameService"/>
+    <fullyQualifiedTypeName name="Abstract.CampaignService"/>
+    <fullyQualifiedTypeName name="Adapters.MernisServiceAdapter"/>
+    <fullyQualifiedTypeName name="Conrete.MemberManager"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="Entities.Member"/>
+    <fullyQualifiedTypeName name="Conrete.GameManager"/>
+    <fullyQualifiedTypeName name="Entities.Game"/>
+    <fullyQualifiedTypeName name="Conrete.CampaignManager"/>
+    <fullyQualifiedTypeName name="Entities.Campaign"/>
 </qualifiedTypeNameHistroy>
