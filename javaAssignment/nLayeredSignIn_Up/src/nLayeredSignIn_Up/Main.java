@@ -32,7 +32,7 @@ public class Main {
 		GoogleAuthService googleAuthService = new GoogleAuthManagerAdapter();
 		
 		googleAuthService.googleRegister();
-		googleAuthService.googleLogIn(null, "123456987");
+		googleAuthService.googleLogIn(null, "123456987"); 
 	}
 
 }
