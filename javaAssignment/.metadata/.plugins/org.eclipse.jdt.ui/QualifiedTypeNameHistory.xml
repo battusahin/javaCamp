@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="Student"/>
-    <fullyQualifiedTypeName name="Instructor"/>
-    <fullyQualifiedTypeName name="UIManager"/>
-    <fullyQualifiedTypeName name="UserManager"/>
-    <fullyQualifiedTypeName name="StudentManager"/>
-    <fullyQualifiedTypeName name="InstructorManager"/>
-    <fullyQualifiedTypeName name="BaseCustomerManager"/>
     <fullyQualifiedTypeName name="NeroCustomerManager"/>
     <fullyQualifiedTypeName name="Entity"/>
     <fullyQualifiedTypeName name="Customer"/>
@@ -31,4 +24,40 @@
     <fullyQualifiedTypeName name="Entities.Game"/>
     <fullyQualifiedTypeName name="Conrete.CampaignManager"/>
     <fullyQualifiedTypeName name="Entities.Campaign"/>
+    <fullyQualifiedTypeName name="nLayeredSignUp_In.entities.abstracts.Entity"/>
+    <fullyQualifiedTypeName name="nLayeredSignUp_In.dataAccess.abstracts.UserDao"/>
+    <fullyQualifiedTypeName name="nLayeredSignUp_In.business.abstracts.ValidationService"/>
+    <fullyQualifiedTypeName name="nLayeredSignUp_In.business.abstracts.EmailService"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="nLayeredSignUp_In.business.abstracts.AuthService"/>
+    <fullyQualifiedTypeName name="nLayeredSignUp_In.entities.concretes.User"/>
+    <fullyQualifiedTypeName name="nLayeredSignUp_In.business.abstracts.UserService"/>
+    <fullyQualifiedTypeName name="nLayeredSignUp_In.dataAccess.concretes.HibernateUserDao"/>
+    <fullyQualifiedTypeName name="nLayeredSignUp_In.business.concretes.AuthManager"/>
+    <fullyQualifiedTypeName name="nLayeredSignUp_In.business.concretes.EmailManager"/>
+    <fullyQualifiedTypeName name="nLayeredSignUp_In.business.concretes.ValidationManager"/>
+    <fullyQualifiedTypeName name="nLayeredSignUp_In.business.concretes.UserManager"/>
+    <fullyQualifiedTypeName name="nLayeredSignUp_In.googleAuth.GoogleAuthManager"/>
+    <fullyQualifiedTypeName name="nLayeredSignUp_In.core.abstracts.GoogleAuthService"/>
+    <fullyQualifiedTypeName name="nLayeredSignUp_In.core.concretes.GoogleAuthManagerAdapter"/>
+    <fullyQualifiedTypeName name="nLayeredSignIn_Up.entities.abstracts.Entity"/>
+    <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
+    <fullyQualifiedTypeName name="java.util.regex.Matcher"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="sun.security.util.Password"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="nLayeredSignIn_Up.business.abstracts.EmailService"/>
+    <fullyQualifiedTypeName name="nLayeredSignIn_Up.business.abstracts.ValidationService"/>
+    <fullyQualifiedTypeName name="nLayeredSignIn_Up.dataAccess.abstracts.UserDao"/>
+    <fullyQualifiedTypeName name="nLayeredSignIn_Up.business.abstracts.AuthService"/>
+    <fullyQualifiedTypeName name="nLayeredSignIn_Up.business.abstracts.UserService"/>
+    <fullyQualifiedTypeName name="nLayeredSignIn_Up.business.concretes.AuthManager"/>
+    <fullyQualifiedTypeName name="nLayeredSignIn_Up.business.concretes.EmailManager"/>
+    <fullyQualifiedTypeName name="nLayeredSignIn_Up.business.concretes.ValidationManager"/>
+    <fullyQualifiedTypeName name="nLayeredSignIn_Up.dataAccess.concretes.HibernateUserDao"/>
+    <fullyQualifiedTypeName name="nLayeredSignIn_Up.business.concretes.UserManager"/>
+    <fullyQualifiedTypeName name="nLayeredSignIn_Up.googleAuth.GoogleAuthManager"/>
+    <fullyQualifiedTypeName name="nLayeredSignIn_Up.core.abstracts.GoogleAuthService"/>
+    <fullyQualifiedTypeName name="nLayeredSignIn_Up.core.concretes.GoogleAuthManagerAdapter"/>
+    <fullyQualifiedTypeName name="nLayeredSignIn_Up.entities.concretes.User"/>
 </qualifiedTypeNameHistroy>
