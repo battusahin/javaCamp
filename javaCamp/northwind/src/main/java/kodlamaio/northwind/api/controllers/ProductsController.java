@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 import kodlamaio.northwind.business.abstracts.ProductService;
 import kodlamaio.northwind.entities.concretes.Product;
 
-@RestController
-@RequestMapping("/api/products")
+@RestController		//sen bi controllersin demek.
+@RequestMapping("/api/products")	
 public class ProductsController {
 	
 	private ProductService productService;
@@ -30,4 +30,7 @@ public class ProductsController {
 	}
 	
 }
-
+//RequestMapping("")
+//kodlama.io/api/products boyle bir istek gelirse bunu ProductsController karsilasin demek için RequestMapping("/api/products") yazarız.
+//http istekleri ikiye ayrilir bir bana veriyi ver ,iki veriyi degistir.
+//veri ver istegi icin GetMapping yapariz

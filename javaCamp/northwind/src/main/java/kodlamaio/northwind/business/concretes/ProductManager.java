@@ -10,11 +10,12 @@ import kodlamaio.northwind.dataAccess.abstracts.ProductDao;
 import kodlamaio.northwind.entities.concretes.Product;
 
 
-@Service
+@Service	//Bu class servis gorevi gorcek demek.
 public class ProductManager implements ProductService {
 	
 	private ProductDao productDao;
-	@Autowired
+	@Autowired//ProductDao'nun instancesi olmadigindan arka tarafta bu ProductDaoya instance olusturur.Bagimlilik olusturur.
+	//kısaca productDao nun ne oldugunu benim sana verebilmem icin bunun üstüne Autowired ekle diyo
 	public ProductManager(ProductDao productDao) {
 		super();
 		this.productDao = productDao;
