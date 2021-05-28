@@ -5,6 +5,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 import lombok.AllArgsConstructor;
@@ -24,8 +26,8 @@ public class Product {
 	@Column(name = "product_id")	// veritabaninda hangi kolona karsilik geldigi		
 	private int id;
 	
-	@Column(name = "category_id")	// veritabaninda hangi kolona karsilik geldigi
-	private int categoryId;
+	//@Column(name = "category_id")	// veritabaninda hangi kolona karsilik geldigi
+	//private int categoryId;
 	
 	@Column(name = "product_name")	// veritabaninda hangi kolona karsilik geldigi
 	private String productName;
@@ -39,5 +41,7 @@ public class Product {
 	@Column(name = "quentity_per_unit")	// veritabaninda hangi kolona karsilik geldigi
 	private String quantityPerUnit;
 	
-	
+	@ManyToOne()
+	@JoinColumn(name = "category_id")
+	private Category category;
 }
