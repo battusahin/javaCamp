@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="nLayeredDemo.jLogger.JLoggerManager"/>
     <fullyQualifiedTypeName name="nLayeredDemo.core.JLoggerManagerAdapter"/>
     <fullyQualifiedTypeName name="kodlamaio.northwind.dataAccess.abstracts.ProductDao"/>
     <fullyQualifiedTypeName name="kodlamaio.northwind.entities.concretes.Product"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseStatus"/>
     <fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
     <fullyQualifiedTypeName name="javax.validation.Valid"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.CrossOrigin"/>
 </qualifiedTypeNameHistroy>
